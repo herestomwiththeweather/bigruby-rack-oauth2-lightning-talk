@@ -6,15 +6,31 @@
 !SLIDE center
 ![Dwolla](oauth-dwolla.png)
 
+!SLIDE
+#2. Use a Token#
+
+	POST /transactions/usd
+	Host: FSP.com
+	Authorization: Bearer abc123
+
+	to=bill@recipient.com&
+	amount=10&
+	note=consulting
+
+!SLIDE bullets
+## Skepticism
+* [JEG2's LSRC5 Keynote](http://www.slideshare.net/JamesEdwardGrayII/a-dickens-of-a-keynote)
+* (OAuth wasn't supposed to be a framework)
+
 !SLIDE center
 # [@nov](https://twitter.com/nov)
 ![@nov](nov.jpg)
 
-!SLIDE center
+!SLIDE bullets
 # Bearer Example Project
 * [rack-oauth2](https://github.com/nov/rack-oauth2-sample)
 
-!SLIDE center
+!SLIDE bullets
 # Mailing List
 * [rack-oauth2](https://groups.google.com/forum/?fromgroups#!forum/rack-oauth2)
 
