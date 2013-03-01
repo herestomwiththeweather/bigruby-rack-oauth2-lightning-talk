@@ -1,5 +1,5 @@
 {
-  "name": "LASCON 2011 - Beautiful Payment Systems with OAuth", 
+  "name": "nov/rack-oauth2", 
   "sections": [ 
     {"section":"backbone"}
   ]
